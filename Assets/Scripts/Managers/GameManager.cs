@@ -55,19 +55,6 @@ public class GameManager : MonoBehaviour
     public void UpdateGameState(GameState newState)
     {
         State = newState;
-
-        switch (newState)
-        {
-            case GameState.ArcherTurn:
-                break;
-            case GameState.DragonTurn:
-                break;
-            case GameState.Projectile:
-                break;
-            case GameState.LoseState:
-                break;
-        }
-
         OnGameStatechanged?.Invoke(newState);
     }
 

@@ -38,6 +38,10 @@ public class Dragon : MonoBehaviour
             anim.Play("ANIM_Dragon-adult-shoot");
         }
     }
+
+    /// <summary>
+    /// Called from animation as an event.
+    /// </summary>
     private void Shoot()
     {
         if (startingHealth > 0)

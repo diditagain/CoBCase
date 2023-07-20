@@ -27,17 +27,6 @@ public class TrajectoryPool : MonoBehaviour
         }
     }
 
-    public GameObject GetPooledObject()
-    {
-        for (int i = 0; i < amountToPool; i++)
-        {
-            if (!pooledTrajectories[i].activeInHierarchy)
-            {
-                return pooledTrajectories[i];
-            }
-        }
-        return null;
-    }
 
     private Vector2 CalculatePoints(Vector2 position, Vector2 direction, float power, float time)
     {
