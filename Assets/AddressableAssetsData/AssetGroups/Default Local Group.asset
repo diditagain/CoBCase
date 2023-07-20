@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e071c1d506864d24bbaff6977cfe842b
+  m_SerializeEntries:
+  - m_GUID: 0de78f3720761b24a88ad84525c7567b
+    m_Address: Assets/Models/Archers/MainArcher.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53d3221c43f1ff149bd88e961c37282a
+    m_Address: Assets/Prefabs/Environment.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cc91046660cd7e847ade188f8470b1d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9ee0b88006ec28240ba4d94bf9af247e, type: 2}
+    - {fileID: 11400000, guid: da2db762ac3757d40aef82a3a1c18b20, type: 2}
