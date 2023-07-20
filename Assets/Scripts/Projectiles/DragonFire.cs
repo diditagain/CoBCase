@@ -10,7 +10,11 @@ public class DragonFire : ProjectileBase
     public void ShootAtPlayer(Vector3 target)
     {
         var position = target;
-        if (Random.Range(0, 1f) < 0.3f) position = target - Vector3.up * Random.Range(2, 5);
+        if (Random.Range(0, 1f) < 0.3f)
+        {
+            position = target - new Vector3(-1, 1, 0) * Random.Range(2f, 6f);
+            Debug.LogError(position);
+        }
         var distance = Vector3.Distance(position, transform.position);
         transform.DOJump(position, 5f, 1, distance * 0.05f);
     }
